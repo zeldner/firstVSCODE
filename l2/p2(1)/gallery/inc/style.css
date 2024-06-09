@@ -1,0 +1,27 @@
+#app {
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#thumbnails{
+    text-align: center;
+}
+
+#thumbnails img {
+    height: 40px;
+    border: 2px solid white;
+    cursor:pointer;
+}
+
+.selectedCar, .selectedCar:hover{
+    border-color: red!important;
+}
+
+#thumbnails img:hover {
+    border: 2px solid yellow;
+}
+
+#selectedImage{
+    width:100%;
+}
